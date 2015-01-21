@@ -8,6 +8,19 @@ Input放大镜，像在输入手机号或身份证号码时，每四位插入一
 1.  依赖于jQuery。
 2.  分别引用src.js文件。
 
+## css
+
+```css
+.input-magnify {
+    position: absolute;
+    font-size: 18px;
+}
+.input-magnify.in {
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
+```
+
 ## javascript 方式
 
 ```javascript
