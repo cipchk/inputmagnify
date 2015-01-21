@@ -1,5 +1,6 @@
 ﻿/* ========================================================================
  * input放大镜
+ * http://www.asdfblog.com/
  * ======================================================================== */
 (function ($) {
     'use strict';
@@ -15,7 +16,7 @@
         first_digit: 3, // 首次位数
         interval_digit: 4, // 间隔位数
         works: ' ',
-        template: '<div class="input-magnify"><div class="input-magnify-inner"></div></div>',
+        template: '<div class="input-magnify label label-success"></div></div>',
         selector: false,
         container: false
     };
@@ -120,7 +121,7 @@
         }
         if (textLength > pos) content.push(text.substring(pos));
 
-        $tip.find('.input-magnify-inner').html(content.join($this.options.works));
+        $tip.html(content.join($this.options.works));
     }
 
     InputMagnify.prototype.tip = function () {
