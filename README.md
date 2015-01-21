@@ -1,10 +1,10 @@
 # inputmagnify
-Input放大镜，像在输入手机号或身份证号码时，每四位插入一个分隔符。
+Input放大镜，像在输入手机号或身份证号码时，每四位插入一个分隔符。默认采用bootstrap标签样式（label label-success）。
 
 # 使用
 
 1.  依赖于jQuery。
-2.  分别引用css.css和src.js两个文件。
+2.  分别引用src.js文件。
 
 ## javascript 方式
 
