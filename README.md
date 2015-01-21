@@ -1,5 +1,7 @@
 # inputmagnify
-Input放大镜，像在输入手机号或身份证号码时，每四位插入一个分隔符。默认采用bootstrap标签样式（label label-success）。
+Input放大镜，像在输入手机号或身份证号码时，每四位插入一个分隔符。
+
+默认采用bootstrap标签样式（label label-success），也可以重写 `.input-magnify` 类样式来调整显示器样式。
 
 # 使用
 
