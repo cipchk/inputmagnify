@@ -16,7 +16,7 @@
         first_digit: 3, // 首次位数
         interval_digit: 4, // 间隔位数
         works: ' ',
-        template: '<div class="input-magnify label label-success"></div></div>',
+        template: '<div class="label label-success input-magnify"></div></div>',
         selector: false,
         container: false
     };
